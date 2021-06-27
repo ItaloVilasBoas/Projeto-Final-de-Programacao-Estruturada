@@ -1,7 +1,3 @@
-//	Sintese
-//	Objetivo: "Utilitário para acesso de informações úteis de Jogadores/Personagens/Itens em uma campanha de D&D 5E."
-//	Autores: "ITALO CARDOSO DOS SANTOS VILAS BOAS e DAVI HUGO SATELES FELINTO"
-//	Data: "08/06/2021"
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
@@ -821,7 +817,7 @@ void valorDePericia (skill pericia[], skill habilidade[], int lvl){
 const char * escolheClasse(){
 	char setas;
 	int tam = 12, opcao = 0, i;
-	//Se for char, a variavel Ã© deletada antes de retornar para main
+	//Se for char, a variavel ÃƒÂ© deletada antes de retornar para main
 	static char classe[12][20] = {"Barbaro", "Bardo", "Bruxo", "Clerigo", "Druida",
 	 "Feiticeiro", 	"Guardiao", "Guerreiro", "Ladino",	"Mago", "Monge", "Paladino"};
 	printf("Classe do personagem: \n");
@@ -848,7 +844,7 @@ const char * escolheClasse(){
 
 const char * escolheRaca(){
 	char setas;
-	//Se for char, a variavel Ã© deletada antes de retornar para main
+	//Se for char, a variavel ÃƒÂ© deletada antes de retornar para main
 	static char raca[14][20] = {"Anao da Colina", "Anao da Montanha", "Draconato", "Elfo (Alto)",  "Elfo (Drow)", "Elfo da Floresta",
 	"Gnomo da Floresta", "Gnomo das Rochas", "Halfling Pes Leves", "Halfling Robusto", "Humano", "Meio-Elfo",	"Meio-Orc", "Tiefling"};
 	int tam = 14, opcao = 0, i;	
