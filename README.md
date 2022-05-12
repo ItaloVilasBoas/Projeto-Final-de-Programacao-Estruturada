@@ -1,4 +1,4 @@
-# Projeto-Final-de-Prograna-o-Estruturada
+# Projeto-Final-de-Programacao-Estruturada
 Esse Projeto foi feito por Davi Hugo Sateles Felinto e Ítalo Cardoso dos Santos Vilas Boas.
 O projeto consiste em um CRUD para ser utilizado por mestres de D&D 5ª Edição para realizar o controle de fichas, recursos e status em uma campanha.
 
